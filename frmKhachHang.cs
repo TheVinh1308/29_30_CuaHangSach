@@ -48,7 +48,8 @@ namespace _29_30_CuaHangSach
             txtTenKH.Text = "";
             txtSDT.Text = "";
             cboPhai.SelectedIndex = 0;
-            cboTrangThai.SelectedIndex  = 0;
+            //cboTrangThai.SelectedIndex  = 0;
+            lbTrangThai.Text = "0";
             flag = 1;
         }
         // NÚT XOÁ
@@ -248,7 +249,7 @@ namespace _29_30_CuaHangSach
         // BẪY LỖI TÊN KHÁCH HÀNG
         private void txtTenKH_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsLetter(e.KeyChar) == false && char.IsControl(e.KeyChar) == false && char.IsWhiteSpace(e.KeyChar) == false)
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
             }
@@ -284,7 +285,8 @@ namespace _29_30_CuaHangSach
                 txtTenKH.Text = ds.Tables[0].Rows[vt]["tenkh"].ToString();
                 cboPhai.Text = ds.Tables[0].Rows[vt]["phai"].ToString();
                 txtSDT.Text = ds.Tables[0].Rows[vt]["sdt"].ToString();
-                cboTrangThai.Text = ds.Tables[0].Rows[vt]["trangthai"].ToString();
+                //cboTrangThai.Text = ds.Tables[0].Rows[vt]["trangthai"].ToString();
+                lbTrangThai.Text = ds.Tables[0].Rows[vt]["trangthai"].ToString();
             }
 
         }
@@ -353,6 +355,16 @@ namespace _29_30_CuaHangSach
         }
 
         private void cboPhai_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+        private void cboTrangThai_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboTrangThai_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = true;
         }

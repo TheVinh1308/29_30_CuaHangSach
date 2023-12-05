@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.grpHoaDonBan = new System.Windows.Forms.GroupBox();
             this.btnTimKiemLoaiSanPham = new System.Windows.Forms.Button();
             this.btnTimKiemTacGia = new System.Windows.Forms.Button();
@@ -171,7 +171,7 @@
             this.cboMaCD.Location = new System.Drawing.Point(188, 196);
             this.cboMaCD.Margin = new System.Windows.Forms.Padding(4);
             this.cboMaCD.Name = "cboMaCD";
-            this.cboMaCD.Size = new System.Drawing.Size(176, 27);
+            this.cboMaCD.Size = new System.Drawing.Size(176, 33);
             this.cboMaCD.TabIndex = 2;
             // 
             // cboMaTG
@@ -183,7 +183,7 @@
             this.cboMaTG.Location = new System.Drawing.Point(188, 238);
             this.cboMaTG.Margin = new System.Windows.Forms.Padding(4);
             this.cboMaTG.Name = "cboMaTG";
-            this.cboMaTG.Size = new System.Drawing.Size(176, 27);
+            this.cboMaTG.Size = new System.Drawing.Size(176, 33);
             this.cboMaTG.TabIndex = 2;
             // 
             // cboMaNXB
@@ -195,7 +195,7 @@
             this.cboMaNXB.Location = new System.Drawing.Point(188, 113);
             this.cboMaNXB.Margin = new System.Windows.Forms.Padding(4);
             this.cboMaNXB.Name = "cboMaNXB";
-            this.cboMaNXB.Size = new System.Drawing.Size(294, 27);
+            this.cboMaNXB.Size = new System.Drawing.Size(294, 33);
             this.cboMaNXB.TabIndex = 2;
             this.cboMaNXB.SelectedIndexChanged += new System.EventHandler(this.cboMaNXB_SelectedIndexChanged);
             // 
@@ -208,7 +208,7 @@
             this.cboMaLoai.Location = new System.Drawing.Point(188, 71);
             this.cboMaLoai.Margin = new System.Windows.Forms.Padding(4);
             this.cboMaLoai.Name = "cboMaLoai";
-            this.cboMaLoai.Size = new System.Drawing.Size(176, 27);
+            this.cboMaLoai.Size = new System.Drawing.Size(176, 33);
             this.cboMaLoai.TabIndex = 2;
             this.cboMaLoai.SelectedIndexChanged += new System.EventHandler(this.cboMaLoai_SelectedIndexChanged);
             // 
@@ -221,7 +221,7 @@
             this.txtTenSP.Location = new System.Drawing.Point(188, 155);
             this.txtTenSP.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenSP.Name = "txtTenSP";
-            this.txtTenSP.Size = new System.Drawing.Size(294, 27);
+            this.txtTenSP.Size = new System.Drawing.Size(294, 31);
             this.txtTenSP.TabIndex = 1;
             // 
             // txtMaSP
@@ -235,7 +235,7 @@
             this.txtMaSP.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaSP.Name = "txtMaSP";
             this.txtMaSP.ReadOnly = true;
-            this.txtMaSP.Size = new System.Drawing.Size(294, 27);
+            this.txtMaSP.Size = new System.Drawing.Size(294, 31);
             this.txtMaSP.TabIndex = 1;
             this.txtMaSP.TextChanged += new System.EventHandler(this.txtMaSP_TextChanged);
             // 
@@ -453,24 +453,24 @@
             this.mota,
             this.hinhanh,
             this.trangthai});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDanhSach.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDanhSach.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDanhSach.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvDanhSach.Location = new System.Drawing.Point(8, 28);
             this.dgvDanhSach.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDanhSach.Name = "dgvDanhSach";
             this.dgvDanhSach.ReadOnly = true;
             this.dgvDanhSach.RowHeadersWidth = 51;
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvDanhSach.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvDanhSach.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDanhSach.RowTemplate.Height = 24;
             this.dgvDanhSach.Size = new System.Drawing.Size(1229, 209);
             this.dgvDanhSach.TabIndex = 0;
@@ -637,8 +637,9 @@
             this.cboTrangThai.Location = new System.Drawing.Point(213, 188);
             this.cboTrangThai.Margin = new System.Windows.Forms.Padding(4);
             this.cboTrangThai.Name = "cboTrangThai";
-            this.cboTrangThai.Size = new System.Drawing.Size(251, 27);
+            this.cboTrangThai.Size = new System.Drawing.Size(251, 33);
             this.cboTrangThai.TabIndex = 2;
+            this.cboTrangThai.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cboTrangThai_KeyPress);
             // 
             // txtMoTa
             // 
@@ -649,7 +650,7 @@
             this.txtMoTa.Location = new System.Drawing.Point(213, 150);
             this.txtMoTa.Margin = new System.Windows.Forms.Padding(4);
             this.txtMoTa.Name = "txtMoTa";
-            this.txtMoTa.Size = new System.Drawing.Size(253, 27);
+            this.txtMoTa.Size = new System.Drawing.Size(253, 31);
             this.txtMoTa.TabIndex = 1;
             // 
             // txtGiaBan
@@ -661,7 +662,7 @@
             this.txtGiaBan.Location = new System.Drawing.Point(213, 70);
             this.txtGiaBan.Margin = new System.Windows.Forms.Padding(4);
             this.txtGiaBan.Name = "txtGiaBan";
-            this.txtGiaBan.Size = new System.Drawing.Size(253, 27);
+            this.txtGiaBan.Size = new System.Drawing.Size(253, 31);
             this.txtGiaBan.TabIndex = 1;
             // 
             // txtSoLuong
@@ -673,7 +674,7 @@
             this.txtSoLuong.Location = new System.Drawing.Point(213, 110);
             this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(253, 27);
+            this.txtSoLuong.Size = new System.Drawing.Size(253, 31);
             this.txtSoLuong.TabIndex = 1;
             this.txtSoLuong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSoLuong_KeyPress);
             // 
@@ -686,7 +687,7 @@
             this.txtGiaNhap.Location = new System.Drawing.Point(213, 30);
             this.txtGiaNhap.Margin = new System.Windows.Forms.Padding(4);
             this.txtGiaNhap.Name = "txtGiaNhap";
-            this.txtGiaNhap.Size = new System.Drawing.Size(253, 27);
+            this.txtGiaNhap.Size = new System.Drawing.Size(253, 31);
             this.txtGiaNhap.TabIndex = 1;
             this.txtGiaNhap.TextChanged += new System.EventHandler(this.txtGiaNhap_TextChanged);
             this.txtGiaNhap.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGiaNhap_KeyPress);
@@ -700,7 +701,7 @@
             this.txtHinhAnh.Location = new System.Drawing.Point(217, 190);
             this.txtHinhAnh.Margin = new System.Windows.Forms.Padding(4);
             this.txtHinhAnh.Name = "txtHinhAnh";
-            this.txtHinhAnh.Size = new System.Drawing.Size(249, 27);
+            this.txtHinhAnh.Size = new System.Drawing.Size(249, 31);
             this.txtHinhAnh.TabIndex = 1;
             this.txtHinhAnh.Visible = false;
             // 
@@ -770,7 +771,7 @@
             // frmSanPham
             // 
             this.AcceptButton = this.btnLuu;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;

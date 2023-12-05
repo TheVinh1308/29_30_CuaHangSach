@@ -449,6 +449,7 @@
             this.cbbTTNXB.Name = "cbbTTNXB";
             this.cbbTTNXB.Size = new System.Drawing.Size(281, 33);
             this.cbbTTNXB.TabIndex = 5;
+            this.cbbTTNXB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbbTTNXB_KeyPress);
             // 
             // label8
             // 

@@ -617,5 +617,10 @@ namespace _29_30_CuaHangSach
             frmTimKiemNXB.ShowDialog();
             cboMaNXB.Text = frmTimKiemNXB.tenNhaXuatBan;
         }
+
+        private void cboTrangThai_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }

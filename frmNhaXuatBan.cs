@@ -494,5 +494,10 @@ namespace _29_30_CuaHangSach
             frmTimKiemLoaiSanPham.ShowDialog();
             cboLoaiSanPham.Text = frmTimKiemLoaiSanPham.tenLoai;
         }
+
+        private void cbbTTNXB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled= true;
+        }
     }
 }

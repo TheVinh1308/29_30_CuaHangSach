@@ -270,5 +270,10 @@ namespace _29_30_CuaHangSach
         {
 
         }
+
+        private void cboTrangThai_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled= true;
+        }
     }
 }

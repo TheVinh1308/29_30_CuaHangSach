@@ -168,3 +168,36 @@ D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach (6) (
 D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach (6) (4) (1)\obj\Debug\29_30_CuaHangSach.pdb
 D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach (6) (4) (1)\obj\Debug\_29_30_CuaHangSach.frmDangNhap.resources
 D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach (6) (4) (1)\obj\Debug\_29_30_CuaHangSach.frmThongKeHoaDon.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\bin\Debug\29_30_CuaHangSach.exe.config
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\bin\Debug\29_30_CuaHangSach.exe
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\bin\Debug\29_30_CuaHangSach.pdb
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\bin\Debug\zxing.dll
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\bin\Debug\zxing.presentation.dll
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\bin\Debug\zxing.xml
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\bin\Debug\zxing.presentation.xml
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.AssemblyReference.cache
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.SuggestedBindingRedirects.cache
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmChuDe.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmDangNhap.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmHoaDonNhap.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmSanPham.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmHoaDonBan.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmKhachHang.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmNhanVien.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmNhaXuatBan.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmLoaiSanPham.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTacGia.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmThongKeHoaDon.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemTacGia.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemChuDe.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemLoaiSanPham.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimkiemNhanVien.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemNXB.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemSanPham.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTrangChu.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.Properties.Resources.resources
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.GenerateResource.cache
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.CoreCompileInputs.cache
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.CopyComplete
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.exe
+D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.pdb
