@@ -368,5 +368,10 @@ namespace _29_30_CuaHangSach
         {
             e.Handled = true;
         }
+
+        private void txtTenKH_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

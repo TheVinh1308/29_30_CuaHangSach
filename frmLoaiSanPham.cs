@@ -53,6 +53,7 @@ namespace _29_30_CuaHangSach
             xuLyChucNang(false);
             xuLyTextBox(false);
             txtMaLoaiSP.Text = phatSinhMa();
+            txtMaLoaiSP.ReadOnly = true;
             cbbTrangThaiLoaiSP.SelectedIndex = 0;
             flag = 1;
 
@@ -103,7 +104,7 @@ namespace _29_30_CuaHangSach
                     xuLyTextBox(false);
                     return;
                 }
-                if (txtTenLoaiSP.Text == "" || cbbTrangThaiLoaiSP.SelectedIndex == -1)
+                if (txtTenLoaiSP.Text.Trim() == "" || cbbTrangThaiLoaiSP.SelectedIndex == -1)
                 {
                     MessageBox.Show("Bạn chưa nhập đủ thông tin loại sản phẩm", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                     btnThem.PerformClick();
@@ -133,15 +134,15 @@ namespace _29_30_CuaHangSach
             {
                 string trung = "select tenloai from LoaiSanPham where tenloai = N'" + txtTenLoaiSP.Text + "'";
                 DataSet dstenloai = loaisanpham.layDuLieu(trung);
-                if (dstenloai.Tables[0].Rows.Count > 0)
+             /*   if (dstenloai.Tables[0].Rows.Count > 0)
                 {
 
                     MessageBox.Show("Loại sàn phẩm đã tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     btnThem.PerformClick();
                     xuLyTextBox(false);
                     return;
-                }
-                if (txtTenLoaiSP.Text == "" || cbbTrangThaiLoaiSP.SelectedIndex == -1)
+                }*/
+                if (txtTenLoaiSP.Text.Trim() == "" || cbbTrangThaiLoaiSP.SelectedIndex == -1)
                 {
                     MessageBox.Show("Bạn chưa nhập đủ thông tin loại sản phẩm", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                     btnThem.PerformClick();
@@ -245,6 +246,7 @@ namespace _29_30_CuaHangSach
         {
             txtMaLoaiSP.ReadOnly = t;
             txtTenLoaiSP.ReadOnly = t;
+            cbbTrangThaiLoaiSP.Enabled = false;
         }
 
         // HÀM LẤY VỊ TRÍ NGƯỜI DỤNG CHỌN

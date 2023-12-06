@@ -48,7 +48,7 @@ namespace _29_30_CuaHangSach
         private void frmHoaDonNhap_Load(object sender, EventArgs e)
         {
             xuLyChucNang(true);
-            xuLyTextBox(true);
+            
             danhsach_datagridview(dgvDanhSach, "select * from HoaDonNhap");
             dsNhanVien = hoadonnhap.layDuLieu("select * from NhanVien");
             hienThiComboBox(cboMaNV, dsNhanVien, "tennv", "manv");
@@ -212,7 +212,7 @@ namespace _29_30_CuaHangSach
             //txtSoluong.ReadOnly= t;
             txtMaCTHDNhap.ReadOnly = t;
             cboMaNV.Enabled = !t;
-            txtMaHDN.ReadOnly = t;
+            txtMaHDN.ReadOnly = !t;
             cboTrangThaiHDN.Enabled = !t;
            
         }

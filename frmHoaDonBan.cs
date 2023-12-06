@@ -903,6 +903,9 @@ namespace _29_30_CuaHangSach
         {
             xuLyChucNang(false);
             hienthi_textbox(ds, index);
+            txtSoLuongCT.ReadOnly = true;
+            txtSanPham.ReadOnly = true;
+            
             if (cboTrangThai.Text == "Đã thanh toán")
             {
                 btnXoaCT.Enabled = false;
