@@ -743,10 +743,11 @@ namespace _29_30_CuaHangSach
         // SỐ LƯỢNG
         private void txtSoLuongCT_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsDigit(e.KeyChar) == false && char.IsControl(e.KeyChar) == false)
+            if (char.IsDigit(e.KeyChar) == false && char.IsControl(e.KeyChar) == false && flag != 1)
             {
                 e.Handled = true;
             }
+            
         }
 
 
@@ -975,11 +976,36 @@ namespace _29_30_CuaHangSach
                 MessageBox.Show("Số lượng phải lớn hơn 0","Thông báo",MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtSoLuongCT.Clear();
             }
+           
         }
 
         private void txtSanPham_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void cboMaNhanVien_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+        private void dtpNgayLap_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(flag == 3)
+            {
+                e.Handled = true;
+
+            }
+        }
+
+        private void dtpNgayLap_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboTrangThai_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }

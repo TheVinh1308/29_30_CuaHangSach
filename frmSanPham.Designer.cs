@@ -223,6 +223,7 @@
             this.txtTenSP.Name = "txtTenSP";
             this.txtTenSP.Size = new System.Drawing.Size(294, 31);
             this.txtTenSP.TabIndex = 1;
+            this.txtTenSP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenSP_KeyPress);
             // 
             // txtMaSP
             // 

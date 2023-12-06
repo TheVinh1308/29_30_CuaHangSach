@@ -875,5 +875,10 @@ namespace _29_30_CuaHangSach
         {
             this.Close();
         }
+
+        private void cboMaNV_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }

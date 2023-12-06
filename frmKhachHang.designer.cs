@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.grpNhapTacGia = new System.Windows.Forms.GroupBox();
+            this.lbTrangThai = new System.Windows.Forms.Label();
             this.cboPhai = new System.Windows.Forms.ComboBox();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtTenKH = new System.Windows.Forms.TextBox();
@@ -54,7 +55,6 @@
             this.phai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sdt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.trangthai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lbTrangThai = new System.Windows.Forms.Label();
             this.grpNhapTacGia.SuspendLayout();
             this.grpChucNangTacGia.SuspendLayout();
             this.grpDanhSachTacGia.SuspendLayout();
@@ -85,6 +85,15 @@
             this.grpNhapTacGia.TabStop = false;
             this.grpNhapTacGia.Text = "Khách Hàng";
             // 
+            // lbTrangThai
+            // 
+            this.lbTrangThai.BackColor = System.Drawing.Color.White;
+            this.lbTrangThai.ForeColor = System.Drawing.Color.Black;
+            this.lbTrangThai.Location = new System.Drawing.Point(180, 246);
+            this.lbTrangThai.Name = "lbTrangThai";
+            this.lbTrangThai.Size = new System.Drawing.Size(232, 38);
+            this.lbTrangThai.TabIndex = 4;
+            // 
             // cboPhai
             // 
             this.cboPhai.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -93,7 +102,7 @@
             "Nam",
             "Nữ"});
             this.cboPhai.Location = new System.Drawing.Point(183, 142);
-            this.cboPhai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboPhai.Margin = new System.Windows.Forms.Padding(4);
             this.cboPhai.Name = "cboPhai";
             this.cboPhai.Size = new System.Drawing.Size(229, 33);
             this.cboPhai.TabIndex = 9;
@@ -368,15 +377,6 @@
             this.trangthai.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.trangthai.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // lbTrangThai
-            // 
-            this.lbTrangThai.BackColor = System.Drawing.Color.White;
-            this.lbTrangThai.ForeColor = System.Drawing.Color.Black;
-            this.lbTrangThai.Location = new System.Drawing.Point(180, 246);
-            this.lbTrangThai.Name = "lbTrangThai";
-            this.lbTrangThai.Size = new System.Drawing.Size(232, 38);
-            this.lbTrangThai.TabIndex = 4;
-            // 
             // frmKhachHang
             // 
             this.AcceptButton = this.btnLuu;
@@ -386,13 +386,14 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnThoat;
             this.ClientSize = new System.Drawing.Size(1661, 802);
+            this.ControlBox = false;
             this.Controls.Add(this.grpDanhSachTacGia);
             this.Controls.Add(this.grpNhapTacGia);
             this.Controls.Add(this.grpChucNangTacGia);
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmKhachHang";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmKhachHang_FormClosing);
             this.Load += new System.EventHandler(this.frmKhachHang_Load);
