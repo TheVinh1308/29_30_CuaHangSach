@@ -201,3 +201,35 @@ D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach
 D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.CopyComplete
 D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.exe
 D:\HocKy5\KTPM\Báo cáo đồ án\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.pdb
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\bin\Debug\29_30_CuaHangSach.exe.config
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\bin\Debug\29_30_CuaHangSach.exe
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\bin\Debug\29_30_CuaHangSach.pdb
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\bin\Debug\zxing.dll
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\bin\Debug\zxing.presentation.dll
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\bin\Debug\zxing.xml
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\bin\Debug\zxing.presentation.xml
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.AssemblyReference.cache
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmChuDe.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmDangNhap.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmHoaDonNhap.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmSanPham.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmHoaDonBan.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmKhachHang.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmNhanVien.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmNhaXuatBan.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmLoaiSanPham.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTacGia.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmThongKeHoaDon.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemTacGia.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemChuDe.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemLoaiSanPham.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimkiemNhanVien.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemNXB.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTimKiemSanPham.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.frmTrangChu.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\_29_30_CuaHangSach.Properties.Resources.resources
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.GenerateResource.cache
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.CoreCompileInputs.cache
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.csproj.CopyComplete
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.exe
+D:\CDTH21A\HK4\LTWin + ĐAMH\chuong5\Database_WebBanSach\29_30_CuaHangSach\obj\Debug\29_30_CuaHangSach.pdb

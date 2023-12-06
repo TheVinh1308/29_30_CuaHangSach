@@ -838,19 +838,27 @@ namespace _29_30_CuaHangSach
 
         private void txtSanPham_KeyDown(object sender, KeyEventArgs e)
         {
+
             if (e.KeyCode == Keys.Enter)
             {
-                string masp = txtSanPham.Text;
-                dssp = hdb.layDuLieu("Select * from SanPham where masp ='" + masp + "'");
-                txtSanPham.Text = dssp.Tables[0].Rows[0]["masp"].ToString();
-                lblGiaTienSanPham.Text = dssp.Tables[0].Rows[0]["gianhap"].ToString(); ;
-                lblTenSp.Text = dssp.Tables[0].Rows[0]["tensp"].ToString();
-                string mahdn = lblMaHDB.Text;
-                lblMaCTHoaDonBan.Text = mahdn + masp;
+                try
+                {
+                    string masp = txtSanPham.Text;
+                    dssp = hdb.layDuLieu("Select * from SanPham where masp ='" + masp + "'");
+                    txtSanPham.Text = dssp.Tables[0].Rows[0]["masp"].ToString();
+                    lblGiaTienSanPham.Text = dssp.Tables[0].Rows[0]["gianhap"].ToString(); ;
+                    lblTenSp.Text = dssp.Tables[0].Rows[0]["tensp"].ToString();
+                    string mahdn = lblMaHDB.Text;
+                    lblMaCTHoaDonBan.Text = mahdn + masp;
 
-                string tenhinh = dssp.Tables[0].Rows[0]["hinhanh"].ToString();
-                string tenFile = Path.GetFullPath("img_WebBanSach") + @"\" + tenhinh;
-                taoanh_tufileanh(picHinhAnh, tenFile);
+                    string tenhinh = dssp.Tables[0].Rows[0]["hinhanh"].ToString();
+                    string tenFile = Path.GetFullPath("img_WebBanSach") + @"\" + tenhinh;
+                    taoanh_tufileanh(picHinhAnh, tenFile);
+
+                }
+                catch(Exception) {
+                    MessageBox.Show("Mã sản phẩm không tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -958,6 +966,20 @@ namespace _29_30_CuaHangSach
             //    int rowIndex = dgvDanhSachChiTiet.SelectedCells[0].RowIndex;
             //    dgvDanhSachChiTiet.Rows[rowIndex].Selected = true;
             //}
+        }
+
+        private void txtSoLuongCT_TextChanged(object sender, EventArgs e)
+        {
+            if(txtSoLuongCT.Text == "0")
+            {
+                MessageBox.Show("Số lượng phải lớn hơn 0","Thông báo",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtSoLuongCT.Clear();
+            }
+        }
+
+        private void txtSanPham_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
