@@ -87,6 +87,7 @@ namespace _29_30_CuaHangSach
             xuLyTextBox(false);
             string sql = "";
             string tennv = "";
+            int age = DateTime.Now.Year - dateNgSinh.Value.Year;
             string sdt = "";
             if (flag == 1)
             {
@@ -101,7 +102,8 @@ namespace _29_30_CuaHangSach
                     txtSDT.Focus();
                     return;
                 }
-                if(txtSDT.Text.Length > 10)
+               
+                if (txtSDT.Text.Length > 10)
                 {
                     MessageBox.Show("Số điện thoại có tối đa 10 ký tự", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     btnThem.PerformClick();
@@ -109,13 +111,36 @@ namespace _29_30_CuaHangSach
                     txtSDT.Focus();
                     return;
                 }
-                if (txtTenNhanVien.Text == "" || txtSDT.Text =="" || cboPhai.SelectedIndex == -1 || cboTrangThai.SelectedIndex == -1)
+               
+                if (txtTenNhanVien.Text.Trim() == "" || txtSDT.Text.Trim() =="" || cboPhai.SelectedIndex == -1 || cboTrangThai.SelectedIndex == -1)
                 {
                     MessageBox.Show("Bạn chưa nhập đủ thông tin nhân viên", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                     btnThem.PerformClick();
                     xuLyChucNang(false);
                     return;
                 }
+                if (txtSDT.TextLength != 10)
+                {
+                    MessageBox.Show("Số điện thoại phải có 10 chữ số", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                    btnThem.PerformClick();
+                    xuLyTextBox(false);
+                    txtSDT.Focus();
+                    return;
+                }
+                if (dateNgSinh.Value > DateTime.Now)
+                {
+                    MessageBox.Show("Ngày sinh không được lớn hơn ngày hiện tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                    
+                }
+                if (age < 18)
+                {
+                    MessageBox.Show("Nhân viên chưa đủ 18 tuổi.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+
+
                 else
                 {
                     foreach (char tu in txtTenNhanVien.Text)
@@ -157,6 +182,7 @@ namespace _29_30_CuaHangSach
             if (flag == 2)
             {
                 string trung = "select sdt from NhanVien where sdt = '" + txtSDT.Text + "'";
+                
                 DataSet dstencd = nhanvien.layDuLieu(trung);
                 if (dstencd.Tables[0].Rows.Count > 0)
                 {
@@ -167,6 +193,7 @@ namespace _29_30_CuaHangSach
                     txtSDT.Focus();
                     return;
                 }
+               
                 if (txtSDT.Text.Length > 10)
                 {
                     MessageBox.Show("Số điện thoại có tối đa 10 ký tự", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -181,6 +208,18 @@ namespace _29_30_CuaHangSach
                     btnThem.PerformClick();
                     xuLyChucNang(false);
                     return;
+                }
+                if (dateNgSinh.Value > DateTime.Now)
+                {
+                    MessageBox.Show("Ngày sinh không được lớn hơn ngày hiện tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+               
+
+
+                if (age < 18)
+                {
+                    MessageBox.Show("Chưa đủ 18 tuổi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
@@ -364,6 +403,11 @@ namespace _29_30_CuaHangSach
         private void cboPhai_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void dateNgSinh_ValueChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

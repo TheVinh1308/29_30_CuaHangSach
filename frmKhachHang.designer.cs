@@ -89,16 +89,16 @@
             // 
             this.lbTrangThai.BackColor = System.Drawing.Color.White;
             this.lbTrangThai.ForeColor = System.Drawing.Color.Black;
-<<<<<<< Updated upstream
+
             this.lbTrangThai.Location = new System.Drawing.Point(180, 246);
             this.lbTrangThai.Name = "lbTrangThai";
             this.lbTrangThai.Size = new System.Drawing.Size(232, 38);
-=======
+
             this.lbTrangThai.Location = new System.Drawing.Point(135, 200);
             this.lbTrangThai.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbTrangThai.Name = "lbTrangThai";
             this.lbTrangThai.Size = new System.Drawing.Size(174, 31);
->>>>>>> Stashed changes
+
             this.lbTrangThai.TabIndex = 4;
             // 
             // cboPhai
@@ -108,12 +108,12 @@
             this.cboPhai.Items.AddRange(new object[] {
             "Nam",
             "Nữ"});
-<<<<<<< Updated upstream
+
             this.cboPhai.Location = new System.Drawing.Point(183, 142);
             this.cboPhai.Margin = new System.Windows.Forms.Padding(4);
-=======
+
             this.cboPhai.Location = new System.Drawing.Point(137, 115);
->>>>>>> Stashed changes
+
             this.cboPhai.Name = "cboPhai";
             this.cboPhai.Size = new System.Drawing.Size(173, 27);
             this.cboPhai.TabIndex = 9;
@@ -402,12 +402,12 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnThoat;
-<<<<<<< Updated upstream
+
             this.ClientSize = new System.Drawing.Size(1661, 802);
             this.ControlBox = false;
-=======
+
             this.ClientSize = new System.Drawing.Size(1246, 652);
->>>>>>> Stashed changes
+
             this.Controls.Add(this.grpDanhSachTacGia);
             this.Controls.Add(this.grpNhapTacGia);
             this.Controls.Add(this.grpChucNangTacGia);
