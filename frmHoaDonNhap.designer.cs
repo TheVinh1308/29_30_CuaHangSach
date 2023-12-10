@@ -191,6 +191,7 @@
             // txtMaHDN
             // 
             this.txtMaHDN.BackColor = System.Drawing.Color.White;
+            this.txtMaHDN.Enabled = false;
             this.txtMaHDN.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaHDN.ForeColor = System.Drawing.Color.Black;
             this.txtMaHDN.Location = new System.Drawing.Point(213, 66);
