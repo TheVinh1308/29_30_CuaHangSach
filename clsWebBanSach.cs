@@ -14,7 +14,7 @@ namespace _29_30_CuaHangSach
 
         void ketnoi()
         {
-            con.ConnectionString = @"Data source =LAPTOP-05MS6OC1; Initial Catalog = quanlybansach; integrated Security = True";
+            con.ConnectionString = @"Data source =DESKTOP-E68E2NP\MSSQLSERVER01; Initial Catalog = quanlybansach; integrated Security = True";
             if(con.State == ConnectionState.Closed)
             {
                 con.Open();

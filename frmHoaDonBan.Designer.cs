@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
             this.grpHoaDonBan = new System.Windows.Forms.GroupBox();
             this.btnTimNhanVien = new System.Windows.Forms.Button();
             this.lblKhachHang = new System.Windows.Forms.Label();
@@ -437,22 +437,22 @@
             this.nglap,
             this.thanhtien,
             this.trangthai});
-            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle63.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle63.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle63.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle63.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDanhSach.DefaultCellStyle = dataGridViewCellStyle63;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDanhSach.DefaultCellStyle = dataGridViewCellStyle21;
             this.dgvDanhSach.Location = new System.Drawing.Point(13, 31);
             this.dgvDanhSach.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDanhSach.Name = "dgvDanhSach";
             this.dgvDanhSach.RowHeadersWidth = 51;
-            dataGridViewCellStyle64.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvDanhSach.RowsDefaultCellStyle = dataGridViewCellStyle64;
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvDanhSach.RowsDefaultCellStyle = dataGridViewCellStyle22;
             this.dgvDanhSach.RowTemplate.Height = 24;
             this.dgvDanhSach.Size = new System.Drawing.Size(777, 342);
             this.dgvDanhSach.TabIndex = 0;
@@ -462,9 +462,9 @@
             // mahdb
             // 
             this.mahdb.DataPropertyName = "mahdb";
-            dataGridViewCellStyle57.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.Color.Black;
-            this.mahdb.DefaultCellStyle = dataGridViewCellStyle57;
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black;
+            this.mahdb.DefaultCellStyle = dataGridViewCellStyle15;
             this.mahdb.HeaderText = "Mã HDB";
             this.mahdb.MinimumWidth = 6;
             this.mahdb.Name = "mahdb";
@@ -473,9 +473,9 @@
             // manv
             // 
             this.manv.DataPropertyName = "manv";
-            dataGridViewCellStyle58.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.Color.Black;
-            this.manv.DefaultCellStyle = dataGridViewCellStyle58;
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.Black;
+            this.manv.DefaultCellStyle = dataGridViewCellStyle16;
             this.manv.HeaderText = "Mã NV";
             this.manv.MinimumWidth = 6;
             this.manv.Name = "manv";
@@ -484,9 +484,9 @@
             // makh
             // 
             this.makh.DataPropertyName = "makh";
-            dataGridViewCellStyle59.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.Color.Black;
-            this.makh.DefaultCellStyle = dataGridViewCellStyle59;
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.Black;
+            this.makh.DefaultCellStyle = dataGridViewCellStyle17;
             this.makh.HeaderText = "Mã KH";
             this.makh.MinimumWidth = 6;
             this.makh.Name = "makh";
@@ -495,8 +495,8 @@
             // nglap
             // 
             this.nglap.DataPropertyName = "ngaylap";
-            dataGridViewCellStyle60.ForeColor = System.Drawing.Color.Black;
-            this.nglap.DefaultCellStyle = dataGridViewCellStyle60;
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
+            this.nglap.DefaultCellStyle = dataGridViewCellStyle18;
             this.nglap.HeaderText = "Ngày Lập";
             this.nglap.MinimumWidth = 6;
             this.nglap.Name = "nglap";
@@ -505,8 +505,8 @@
             // thanhtien
             // 
             this.thanhtien.DataPropertyName = "thanhtien";
-            dataGridViewCellStyle61.ForeColor = System.Drawing.Color.Black;
-            this.thanhtien.DefaultCellStyle = dataGridViewCellStyle61;
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black;
+            this.thanhtien.DefaultCellStyle = dataGridViewCellStyle19;
             this.thanhtien.HeaderText = "Tổng tiền";
             this.thanhtien.MinimumWidth = 6;
             this.thanhtien.Name = "thanhtien";
@@ -515,8 +515,8 @@
             // trangthai
             // 
             this.trangthai.DataPropertyName = "trangthai";
-            dataGridViewCellStyle62.ForeColor = System.Drawing.Color.Black;
-            this.trangthai.DefaultCellStyle = dataGridViewCellStyle62;
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black;
+            this.trangthai.DefaultCellStyle = dataGridViewCellStyle20;
             this.trangthai.HeaderText = "Trạng thái";
             this.trangthai.MinimumWidth = 6;
             this.trangthai.Name = "trangthai";
@@ -587,22 +587,22 @@
             this.Column3,
             this.CTSoluong,
             this.CTthanhtien});
-            dataGridViewCellStyle69.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle69.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle69.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle69.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle69.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle69.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle69.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDanhSachChiTiet.DefaultCellStyle = dataGridViewCellStyle69;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDanhSachChiTiet.DefaultCellStyle = dataGridViewCellStyle27;
             this.dgvDanhSachChiTiet.Location = new System.Drawing.Point(20, 370);
             this.dgvDanhSachChiTiet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDanhSachChiTiet.Name = "dgvDanhSachChiTiet";
             this.dgvDanhSachChiTiet.RowHeadersWidth = 51;
-            dataGridViewCellStyle70.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle70.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle70.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvDanhSachChiTiet.RowsDefaultCellStyle = dataGridViewCellStyle70;
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvDanhSachChiTiet.RowsDefaultCellStyle = dataGridViewCellStyle28;
             this.dgvDanhSachChiTiet.RowTemplate.Height = 24;
             this.dgvDanhSachChiTiet.Size = new System.Drawing.Size(787, 331);
             this.dgvDanhSachChiTiet.TabIndex = 3;
@@ -622,8 +622,8 @@
             // Column1
             // 
             this.Column1.DataPropertyName = "mahdb";
-            dataGridViewCellStyle65.ForeColor = System.Drawing.Color.Black;
-            this.Column1.DefaultCellStyle = dataGridViewCellStyle65;
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle23;
             this.Column1.HeaderText = "Mã HDB";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
@@ -632,8 +632,8 @@
             // Column2
             // 
             this.Column2.DataPropertyName = "masp";
-            dataGridViewCellStyle66.ForeColor = System.Drawing.Color.Black;
-            this.Column2.DefaultCellStyle = dataGridViewCellStyle66;
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black;
+            this.Column2.DefaultCellStyle = dataGridViewCellStyle24;
             this.Column2.HeaderText = "Mã SP";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
@@ -650,8 +650,8 @@
             // CTSoluong
             // 
             this.CTSoluong.DataPropertyName = "soluong";
-            dataGridViewCellStyle67.ForeColor = System.Drawing.Color.Black;
-            this.CTSoluong.DefaultCellStyle = dataGridViewCellStyle67;
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black;
+            this.CTSoluong.DefaultCellStyle = dataGridViewCellStyle25;
             this.CTSoluong.HeaderText = "Số Lượng";
             this.CTSoluong.MinimumWidth = 6;
             this.CTSoluong.Name = "CTSoluong";
@@ -659,8 +659,8 @@
             // CTthanhtien
             // 
             this.CTthanhtien.DataPropertyName = "thanhtien";
-            dataGridViewCellStyle68.ForeColor = System.Drawing.Color.Black;
-            this.CTthanhtien.DefaultCellStyle = dataGridViewCellStyle68;
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black;
+            this.CTthanhtien.DefaultCellStyle = dataGridViewCellStyle26;
             this.CTthanhtien.HeaderText = "Thành Tiền";
             this.CTthanhtien.MinimumWidth = 6;
             this.CTthanhtien.Name = "CTthanhtien";

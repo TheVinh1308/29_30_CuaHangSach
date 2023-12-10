@@ -70,7 +70,7 @@ namespace _29_30_CuaHangSach
             { 
                 txtMaChuDe.Text = ds.Tables[0].Rows[vt]["macd"].ToString();
                 txtTenChuDe.Text = ds.Tables[0].Rows[vt]["tencd"].ToString();
-                cbbTrangThaiChuDe.Text = ds.Tables[0].Rows[vt]["trangthai"].ToString();
+                lblTrangThaiChuDe.Text = ds.Tables[0].Rows[vt]["trangthai"].ToString();
             }
 
         }
@@ -200,7 +200,7 @@ namespace _29_30_CuaHangSach
             xuLyChucNang(false);
             xuLyTextBox(false);
             txtMaChuDe.Text = phatSinhMa();
-            cbbTrangThaiChuDe.SelectedIndex = 0;
+            lblTrangThaiChuDe.Text = "0";
             flag = 1;
             txtTenChuDe.Text = "";
         }
@@ -249,7 +249,7 @@ namespace _29_30_CuaHangSach
     // BẪY LỖI TÊN CHỦ ĐỀ
         private void txtTenChuDe_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsLetter(e.KeyChar) == false && char.IsControl(e.KeyChar) == false && char.IsWhiteSpace(e.KeyChar) == false)
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true;
             }
@@ -278,6 +278,11 @@ namespace _29_30_CuaHangSach
         private void cbbTrangThaiChuDe_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled|= true;
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

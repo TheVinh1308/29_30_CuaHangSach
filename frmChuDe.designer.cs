@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.cbbTrangThaiChuDe = new System.Windows.Forms.ComboBox();
-            this.txtTenChuDe = new System.Windows.Forms.TextBox();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtMaChuDe = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,42 +47,13 @@
             this.tencd = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.trangthai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtTenChuDe = new System.Windows.Forms.TextBox();
+            this.lblTrangThaiChuDe = new System.Windows.Forms.Label();
             this.grpChucNangChuDe.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSach)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // cbbTrangThaiChuDe
-            // 
-            this.cbbTrangThaiChuDe.BackColor = System.Drawing.Color.White;
-            this.cbbTrangThaiChuDe.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbbTrangThaiChuDe.ForeColor = System.Drawing.Color.Black;
-            this.cbbTrangThaiChuDe.FormattingEnabled = true;
-            this.cbbTrangThaiChuDe.Items.AddRange(new object[] {
-            "Hoạt động",
-            "Ngưng hoạt động"});
-            this.cbbTrangThaiChuDe.Location = new System.Drawing.Point(183, 169);
-            this.cbbTrangThaiChuDe.Margin = new System.Windows.Forms.Padding(4);
-            this.cbbTrangThaiChuDe.Name = "cbbTrangThaiChuDe";
-            this.cbbTrangThaiChuDe.Size = new System.Drawing.Size(231, 33);
-            this.cbbTrangThaiChuDe.TabIndex = 3;
-            this.cbbTrangThaiChuDe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cbbTrangThaiChuDe_KeyPress);
-            // 
-            // txtTenChuDe
-            // 
-            this.txtTenChuDe.BackColor = System.Drawing.Color.White;
-            this.txtTenChuDe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTenChuDe.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenChuDe.ForeColor = System.Drawing.Color.Black;
-            this.txtTenChuDe.Location = new System.Drawing.Point(183, 108);
-            this.txtTenChuDe.Margin = new System.Windows.Forms.Padding(4);
-            this.txtTenChuDe.Name = "txtTenChuDe";
-            this.txtTenChuDe.ReadOnly = true;
-            this.txtTenChuDe.Size = new System.Drawing.Size(231, 31);
-            this.txtTenChuDe.TabIndex = 1;
-            this.txtTenChuDe.TextChanged += new System.EventHandler(this.txtTenChuDe_TextChanged);
-            this.txtTenChuDe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenChuDe_KeyPress);
             // 
             // txtMaChuDe
             // 
@@ -271,23 +240,23 @@
             this.macd,
             this.tencd,
             this.trangthai});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDanhSach.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDanhSach.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvDanhSach.GridColor = System.Drawing.Color.Black;
             this.dgvDanhSach.Location = new System.Drawing.Point(17, 28);
             this.dgvDanhSach.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDanhSach.Name = "dgvDanhSach";
             this.dgvDanhSach.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvDanhSach.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(82)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvDanhSach.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvDanhSach.Size = new System.Drawing.Size(755, 394);
             this.dgvDanhSach.TabIndex = 0;
             this.dgvDanhSach.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSach_CellClick);
@@ -322,8 +291,8 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.lblTrangThaiChuDe);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.cbbTrangThaiChuDe);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.txtTenChuDe);
@@ -338,6 +307,32 @@
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chủ đề";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // txtTenChuDe
+            // 
+            this.txtTenChuDe.BackColor = System.Drawing.Color.White;
+            this.txtTenChuDe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTenChuDe.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenChuDe.ForeColor = System.Drawing.Color.Black;
+            this.txtTenChuDe.Location = new System.Drawing.Point(183, 108);
+            this.txtTenChuDe.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTenChuDe.Name = "txtTenChuDe";
+            this.txtTenChuDe.ReadOnly = true;
+            this.txtTenChuDe.Size = new System.Drawing.Size(231, 31);
+            this.txtTenChuDe.TabIndex = 1;
+            this.txtTenChuDe.TextChanged += new System.EventHandler(this.txtTenChuDe_TextChanged);
+            this.txtTenChuDe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenChuDe_KeyPress);
+            // 
+            // lblTrangThaiChuDe
+            // 
+            this.lblTrangThaiChuDe.BackColor = System.Drawing.Color.White;
+            this.lblTrangThaiChuDe.Enabled = false;
+            this.lblTrangThaiChuDe.ForeColor = System.Drawing.Color.Black;
+            this.lblTrangThaiChuDe.Location = new System.Drawing.Point(183, 180);
+            this.lblTrangThaiChuDe.Name = "lblTrangThaiChuDe";
+            this.lblTrangThaiChuDe.Size = new System.Drawing.Size(231, 32);
+            this.lblTrangThaiChuDe.TabIndex = 4;
             // 
             // frmChuDe
             // 
@@ -373,8 +368,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox grpChucNangChuDe;
-        private System.Windows.Forms.ComboBox cbbTrangThaiChuDe;
-        private System.Windows.Forms.TextBox txtTenChuDe;
         private System.Windows.Forms.TextBox txtMaChuDe;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnHuy;
@@ -388,6 +381,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tencd;
         private System.Windows.Forms.DataGridViewTextBoxColumn trangthai;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox txtTenChuDe;
+        private System.Windows.Forms.Label lblTrangThaiChuDe;
     }
 }
 
