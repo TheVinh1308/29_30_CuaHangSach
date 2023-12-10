@@ -98,7 +98,7 @@ namespace _29_30_CuaHangSach
                         txtTenChuDe.Focus();
                         return;
                     }
-                    if (txtTenChuDe.Text == "" )
+                    if (txtTenChuDe.Text.Trim() == "" )
                     {
                         MessageBox.Show("Bạn chưa nhập tên chủ đề", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                         btnThem.PerformClick();
@@ -209,6 +209,7 @@ namespace _29_30_CuaHangSach
         {
             xuLyChucNang(false);
             xuLyTextBox(false);
+            
             flag = 2;
         }
     // HÀM PHÁT SINH MÃ

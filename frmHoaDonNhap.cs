@@ -747,20 +747,28 @@ namespace _29_30_CuaHangSach
         {
             if (e.KeyCode == Keys.Enter)
             {
-                string masp = txtMasp.Text;
-                dsSP = hoadonnhap.layDuLieu("Select * from SanPham where masp ='" + masp + "'");
-                txtMasp.Text = dsSP.Tables[0].Rows[0]["masp"].ToString();
-                manxb = dsSP.Tables[0].Rows[0]["manxb"].ToString();
-                dsNXB = hoadonnhap.layDuLieu("select * from NhaXuatBan where manxb ='" + manxb + "'");
-                lblTenNXB.Text = dsNXB.Tables[0].Rows[0]["tennxb"].ToString();
-                txtGiaNhap.Text = dsSP.Tables[0].Rows[0]["gianhap"].ToString();
-                lblTenSP.Text = dsSP.Tables[0].Rows[0]["tensp"].ToString();
-                string mahdn = txtMaHDN.Text;
-                txtMaCTHDNhap.Text = mahdn + masp;
+                try
+                {
+                    string masp = txtMasp.Text;
+                    dsSP = hoadonnhap.layDuLieu("Select * from SanPham where masp ='" + masp + "'");
+                    txtMasp.Text = dsSP.Tables[0].Rows[0]["masp"].ToString();
+                    manxb = dsSP.Tables[0].Rows[0]["manxb"].ToString();
+                    dsNXB = hoadonnhap.layDuLieu("select * from NhaXuatBan where manxb ='" + manxb + "'");
+                    lblTenNXB.Text = dsNXB.Tables[0].Rows[0]["tennxb"].ToString();
+                    txtGiaNhap.Text = dsSP.Tables[0].Rows[0]["gianhap"].ToString();
+                    lblTenSP.Text = dsSP.Tables[0].Rows[0]["tensp"].ToString();
+                    string mahdn = txtMaHDN.Text;
+                    txtMaCTHDNhap.Text = mahdn + masp;
 
-                string tenhinh = dsSP.Tables[0].Rows[0]["hinhanh"].ToString();
-                string tenFile = Path.GetFullPath("img_WebBanSach") + @"\" + tenhinh;
-                taoanh_tufileanh(picHinhAnh, tenFile);
+                    string tenhinh = dsSP.Tables[0].Rows[0]["hinhanh"].ToString();
+                    string tenFile = Path.GetFullPath("img_WebBanSach") + @"\" + tenhinh;
+                    taoanh_tufileanh(picHinhAnh, tenFile);
+
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Mã sản phẩm không tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 

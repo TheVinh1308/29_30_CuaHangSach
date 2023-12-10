@@ -103,6 +103,7 @@
             this.cboLoaiHoaDon.Size = new System.Drawing.Size(144, 21);
             this.cboLoaiHoaDon.TabIndex = 6;
             this.cboLoaiHoaDon.SelectedIndexChanged += new System.EventHandler(this.cboLoaiHoaDon_SelectedIndexChanged);
+            this.cboLoaiHoaDon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cboLoaiHoaDon_KeyPress);
             // 
             // label2
             // 

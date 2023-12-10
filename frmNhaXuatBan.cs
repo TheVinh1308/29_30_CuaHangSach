@@ -111,6 +111,7 @@ namespace _29_30_CuaHangSach
         {
             xuLyChucNang(false);
             xuLyTextBox(false);
+            cbbTTNXB.Enabled = false;
             flag = 2;
             hienthi_combobox(cboLoaiSanPham, dsloai, "tenloai", "maloai");
         }
@@ -178,30 +179,37 @@ namespace _29_30_CuaHangSach
                     txtSDTNXB.Focus();
                     return;
                 }
-                if (txtTenNXB.Text == "")
+                if (txtTenNXB.Text.Trim() == "")
                 {
                     MessageBox.Show("Bạn chưa nhập tên nhà xuất bản", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     btnThem.PerformClick();
                     txtTenNXB.Focus();
                     return;
                 }
-                if (txtEmailNXB.Text == "")
+                if (txtEmailNXB.Text.Trim() == "")
                 {
                     MessageBox.Show("Bạn chưa nhập email nhà xuất bản", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     btnThem.PerformClick();
                     txtEmailNXB.Focus();
                     return;
                 }
-                if (txtDCHiNXB.Text == "")
+                if (txtDCHiNXB.Text.Trim() == "")
                 {
                     MessageBox.Show("Bạn chưa nhập địa chỉ nhà xuất bản", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     btnThem.PerformClick();
                     txtDCHiNXB.Focus();
                     return;
                 }
-                if (txtSDTNXB.Text == "")
+                if (txtSDTNXB.Text.Trim() == "")
                 {
                     MessageBox.Show("Bạn chưa nhập số điện thoại nhà xuất bản", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    btnThem.PerformClick();
+                    txtSDTNXB.Focus();
+                    return;
+                }
+                if (txtSDTNXB.TextLength != 10)
+                {
+                    MessageBox.Show("Số điện thoại phải có 10 chữ số", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     btnThem.PerformClick();
                     txtSDTNXB.Focus();
                     return;

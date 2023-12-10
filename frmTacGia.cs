@@ -89,7 +89,7 @@ namespace _29_30_CuaHangSach
             string sql = "";
             if (flag == 1)
             {
-                if(txtTenTG.Text == "")
+                if(txtTenTG.Text.Trim() == "")
                 {
                     MessageBox.Show("Bạn chưa nhập tên tác giả", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     btnThem.PerformClick();

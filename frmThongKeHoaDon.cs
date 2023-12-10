@@ -92,5 +92,10 @@ namespace _29_30_CuaHangSach
                 }
             }
         }
+
+        private void cboLoaiHoaDon_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
     }
 }
